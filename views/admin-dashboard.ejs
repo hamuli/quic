@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quick Credit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="sidebar">
+            <div class="img-holder">
+                <a href="/index">
+                    <img src="./img/deal.svg" class="img-logo" alt="">
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <a href="/admin-dashboard">
+                        <div class="sidenav-item active">
+                            <i class="material-icons">
+                                home
+                            </i> Dashboard
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/applications">
+                        <div class="sidenav-item"><i class="material-icons">
+                                list
+                            </i>Applications</div>
+                    </a>
+                </li>
+                 <li>
+                    <a href="/Repayment">
+                        <div class="sidenav-item active">
+                            <i class="material-icons"> money
+                
+                            </i> Repayment
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="/sign-in">
+                        <div class="sidenav-item"><i class="material-icons">
+                                exit_to_app
+                            </i>Logout
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div id="rightSideWrapper">
+            <header class="d-flx align-items-center pl-qt">
+                <div class="">
+                    <i class="material-icons menu-click" id="menu" onclick="navControl()">
+                        menu
+                    </i> 
+                    Dashboard
+                </div>
+            </header>
+            <div class="ContentBox">
+                <main>
+                    <div class="column">
+
+                        <div class="row">
+                            <div class="width-100">
+                                <div class="card m-1h">
+                                    <h2><%= locals.userArticle %></h2>
+                                    <p class="sub-text">Total Users</p>
+                                </div>
+                            </div>
+
+                    </div>
+                    <div class="column p-1h">
+                        <div class="content-header">
+                            <h3 class="mt-0">Recent Loan Application </h3>
+                        </div>
+                        <div class="txn-list activity">
+                            <a href="/update-pending-applications">
+                                <div class="social-row">
+
+                                    <span>user of this email <%= locals.userData %>  applaid for a loans </span>
+                                    <div class="float-r">
+                                        <%= locals.time %></div>
+                            </a>
+                        </div>
+
+                    </div>
+
+            </div>
+
+
+            </main>
+
+
+        </div>
+
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

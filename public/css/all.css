@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+html {height: 100%; overflow: auto}
+body {font-family: 'Poppins', sans-serif;font-size: 0.9rem;margin: 0;box-sizing: border-box;
+    }
+
+body
+body, html {
+    height: 100%;
+    margin: 0;
+    font: 500 15px/1.8 "Lato", sans-serif;
+    color: #777;
+    }
+  nav{
+    width: 100%;
+    height: -600px;
+    background: #00316b;
+    margin-top: -1.5em;
+  }
+  nav ul{
+    width: 100%;
+    margin-left: -50px; 
+    padding: 0;
+    text-align: right;
+
+  
+  }
+  nav ul li{
+    list-style: none;
+    padding: 5px;
+    margin-bottom:0px;
+    display: inline-block;
+  
+  }
+  nav ul li:hover{
+    background: #008CBA;
+  }
+  nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    
+  }
+  nav ul li i{
+  font-size: 50px;
+  color: #fff;
+  }
+.bgimg-1 {
+    background-image: url("images/img_parallax.jpg");
+    height: 100%;
+  }
+.footer{
+background-image: url("images/help.jpeg");}
+.backgroundImage{
+    margin-left: 600px;
+    margin-top: -350px;
+    }
+    .choose{
+        width: 270px;
+        border-bottom: 4px black solid; 
+        margin-left: 160px;
+        margin-top: 130px;
+    }
+    .box
+    {
+         width: 500px;
+         color: white;
+         margin-top: 30px;
+         border-radius: 10px;
+         padding: 10px 10px;
+         font-size: 15px;
+         background-color: rgba(44,62,80,0.7);
+         margin-left: 30px;
+        }
+    .flex{ display: flex; flex-direction: row; }
+    a ,i{color: white; font-size: 16px;}
+    
+    .start{
+        width: 300px;
+        text-align: center;
+        padding: 10px 10px;
+        
+        color: black;
+        text-orientation: none;
+        font-weight: bold;
+        cursor: pointer;
+        font-size:20px;
+        background: linear-gradient(to right, #507bf5 0, #04c3e1 100%);
+        margin-left: 500px;
+        margin-top: 50px;
+    }
+
+.inputs{ float: right; margin-right: 100px;color:black;border-radius: 10px; border-bottom: 1px solid black; margin-top: -10px; padding:10px 10px;}
+.article1{width: 300px; margin-top: 30px;
+height:auto; background-color: snow;margin-left: 100px;}
+.article2{width: 200px; margin-top: 10px;
+  height:auto; background-color: snow;margin-left: 50px;}
+    .free{padding-left: 220px;}
+    .details{ width: 70px; height: auto; background-color:blueviolet; padding: 5px 5px; margin-left: 200px;}
+.title1{color:blue; font-size: 16px;text-align: center;}
+.title2{color:blue; font-size: 13px;text-align: center;}
+.detail{ width: 70px; height: auto; background-color:blueviolet; padding: 3px 3px; margin-left: 120px;}
+a ,.i{color: white; font-size:13px; text-align: center;}
+    
+.box1 img{
+        padding-left: 210px;
+        padding-top: 50px;
+        width: 100px;
+
+        border-radius: 1px 30px;
+        padding-bottom: 20px;
+    }
+    .box ,img{ padding-left: 10px; }
+    .account{ 
+        text-align: center;
+        font-size: 20px;
+        color: white; }
+    .dispaly{ display: flex; margin-left: 100px; }
+    .myFlex{
+        display: flex;
+        flex-direction: row;
+    }
+    .Categorie{
+      width: 190px;
+      border-bottom: 4px black solid; 
+      margin-left: 500px;
+      margin-top: 10px;
+  }
+  .Categori{
+   
+    width: 190px;
+    font-size:16px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+    .choosee{
+        width: 190px;
+        border-bottom: 4px black solid; 
+        margin-left: 860px;
+        margin-top: 130px;
+    }
+    .text1{ padding: 10px 15px;}
+    .choos{
+        width: 200px;
+        border-bottom: 4px black solid; 
+        margin-left: 500px;
+        margin-top: 10px;
+    }
+    .details{text-decoration: none;}
+    a .details{text-decoration:none; text-align: center; border-radius: 4px;}
+    a .details:hover{background-color: white;color: blueviolet;}
+    .boxe
+    {
+         width: 500px;
+         margin-top: 30px;
+         padding: 10px 10px;
+         font-size: 15px;
+         margin-left: 700px;
+        }
+        .myFooter{ border-top: 300px; background-color:#00316b; color: white; text-align: center; }
+	form{
+		background-color: rgba(44,62,80,0.7);;
+		width: 300px;
+		height: 500px;
+		padding-left: 100px;
+		margin-top: 10px;
+		margin-bottom: 150px;
+		margin-left: 400px;
+		border-right: 1px solid blue;
+		border-radius: 10px;
+	}
+	.Sign{ margin-left: 80px; font-size: 20px;font-weight: bold;margin-top: 20px;}
+	.myFormflex{
+		display: flex;
+		flex-direction: column;
+		margin-left
+	}
+	
+   input {
+    width: 240px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.haveAcount{font-size: 13px;margin-right: 50px;}
+form a {
+    color: skyblue;}
+button{border: none;
+    
+    line-height: 25px; cursor: pointer; border-radius: 15px;padding: 10px 0;width: 190px;
+    background: #fff;
+    color: #000;
+    font-size: 16px; }
+    .error{ color: black;
+ border-radius: 10px; text-align: center;width: 500px;height: 20px; margin-top: 20px; margin-left: 300px;background-color:orange; }

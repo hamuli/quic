@@ -1,0 +1,169 @@
+body
+{
+  font:15/1.5 Arial,Helvetical, sans-serif;
+
+}
+#header
+{
+  background-color: snow;
+  padding-top: 30px;
+  min-height: 70px;
+  padding-bottom:red 1px solid; 
+}
+ a{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline;
+  
+}
+a:link
+{
+  color=red;
+  
+}
+a:visited
+{
+  color=green;
+  
+}
+a:hover
+{
+  color:hotpink;
+  
+}
+a:active
+{
+  color:blue;
+  
+}
+ ul{
+  margin:0;
+  padding: 0;
+}
+li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+
+}
+#logo
+{
+  text-transform: uppercase;
+  text-decoration: none; 
+}
+#picing
+{
+  text-transform: uppercase;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header #second
+{
+  color: blue;
+  
+  float: right;
+  text-transform: uppercase;
+   text-decoration: none;
+   display: inline;
+   padding: 0 20px 0 20px;
+   
+}
+#btn
+{
+  background-color: snow;
+  color: blue;
+  width: 130px;
+  height: 30px;
+  border-radius: 3px;
+}
+#btn1
+{
+  background-color: blue;
+  color: white;
+  width: 130px;
+  height: 30px;
+  border-radius: 3px;
+}
+#login
+{
+  color:black;
+}
+#asid
+{
+  background-color: teal;
+  padding-bottom: 220px;
+  position: relative;
+}
+#tit
+{
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  
+}
+#para
+{
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  
+}
+button,input[type="button"]{
+  border:none;
+  padding:10px;
+}
+button:hover,
+input[type="button"]:hover{
+  cursor: pointer;
+  background: #dddd;
+}
+#start
+{
+  
+  background-color: yellow;
+  color: black;
+  /*width: 150px;*/
+  border-radius: 15px;
+  padding: 20px;
+  font-size: 20px;
+  position: absolute;
+  bottom:10px;
+  left:50%;
+  transform: translate(-50%,-50%);
+  }
+
+#overview
+{
+  height: 70px;
+
+}
+
+#asid1
+{
+  width: 60%;
+  height: 50%;
+}
+.dark
+{
+  padding:15px;
+  background:#35424a;
+  color: #ffffff;
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+#asid2
+{
+  border-style: solid;
+  border-width: 1px
+  float:right;
+  width:10%;
+  padding:5%;
+  text-align: left;
+  min-height: 70px;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}

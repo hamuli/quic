@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quick Credit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div id="sidebar">
+            <div class="img-holder">
+                    <a href="/index">
+                            <img src="./img/deal.svg" class="img-logo" alt="">
+                    </a>
+            </div>
+          
+            <ul>
+                    <li>
+                        <a href="/dashboard">
+                            <div class="sidenav-item">
+                                 <i class="material-icons">
+                                    home
+                                </i> Dashboard</div>
+                        </a>
+                    </li>
+    
+                    <li> 
+                        <a href="/request">
+                            <div class="sidenav-item">
+                                <span class="naira">
+                                    $
+                                </span> Request Loan</div>
+                        </a></li>
+                    <li>
+                        <a href="/loans">
+                            <div class="sidenav-item active"> <i class="material-icons">
+                                    list
+                                </i>Loans</div>
+                        </a>
+                    </li>
+                    <li><a href="/sign-in">
+                            <div class=" sidenav-item"><i class="material-icons">
+                                    exit_to_app
+                                </i>Logout</div>
+                        </a>
+                    </li>
+    
+                </ul>
+        </div>
+        <div id="rightSideWrapper">
+            <header class="d-flx align-items-center pl-qt">
+                <div class="">
+                    <i class="material-icons menu-click" id="menu" onclick="navControl()">
+                        menu
+                    </i> 
+                  Loans
+                </div>
+            </header>
+            <div class="ContentBox  p-1h">
+                <div class="content-header">
+                    <h3 class="mt-0">
+                            <a href="/loans"><i class="material-icons">
+                                    chevron_left
+                                </i></a>LOAN DETAILS
+                        </h3>
+
+                </div>
+                <main>
+
+                      
+
+                      
+                        <div class="table-scroll ">
+                            <h3>REPAYMENTS </h3>
+                            <table class="border-table">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            <div>Account Id</div>
+                                        </th>
+                                        <th>
+                                            <div>Amount Paid</div>
+                                        </th>
+                                        <th>
+                                            <div>Total Amount</div>
+                                        </th>
+                                        <th>
+                                            <div>Balance</div>
+                                        </th>
+
+                                        <th>
+                                            <div>Paid On</div>
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                         <td>
+                                            <div>id :  <%= locals.userids %></div>
+                                        </td>
+                                        <td>
+                                            <div>$ <%= locals.userRepayment %></div>
+                                        </td>
+                                        <td>
+                                            <div>$ <%= locals.totale  %></div>
+                                        </td>
+                                        <td>
+                                            <div>$ <%= locals.balances %></div>
+                                        </td>
+
+                                        <td>
+                                            <div><%= locals.time %></div>
+                                        </td>
+
+                                    </tr>
+                                    <tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+
+                </main>
+
+
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+body{
+    height: 100%; 
+    font-family: 'Noto Sans', sans-serif;
+}
+.header{
+    border-bottom: 1px solid black;
+   background-color: snow;
+   padding:50px; 
+
+}
+.title{
+    float: left;
+    text-align: left;
+    font-size: 16px;
+    margin-top: -30px; 
+
+}
+.users{
+    text-decoration:blink;
+    float: right; 
+    font-size: 16px;
+
+}
+.users a{
+    text-decoration:none;
+    padding-left: 10px;
+    color: black;
+}
+.users a:hover{
+    color: blue;
+    text-decoration-line: underline;
+}
+.text1{
+	text-align: center;
+	font-size: 40px;
+	padding-top: 20px;
+	padding-right: 450px;
+}
+.text2{
+	text-align: center;
+	font-size: 25px;
+    padding-right: 20px;
+	padding-right: 370px;
+}
+input{
+	width: 30%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border-radius: 4px;
+	border: 2px solid black;
+}
+input:focus{
+background-color: lightblue;
+border: 3px solid #555;
+}
+.timeselected{
+	width: 30%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border-radius: 4px;
+	border: 2px solid black;
+}
+.revenu{
+	width: 30%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border-radius: 4px;
+	border: 2px solid black;
+}
+.allboxes{
+	text-align: center;
+	border: 1px solid black;
+	width: 800px;
+	margin-left: 300px;
+	background-color:snow;
+}
+.power{
+    text-align: center;
+    text-decoration: black; 
+}
+.button{
+    text-align: center;
+    text-decoration: white
+    margin-top:30px;
+    margin-bottom: 30px; 
+    border-radius: 10px;
+    background-color:green;
+    margin-left: 60px;
+    padding: 20px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.allform{
+	background-color: linen;
+}

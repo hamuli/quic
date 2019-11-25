@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Quick Credit</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="sidebar">
+            <div class="img-holder">
+                <a href="/index">
+                    <img src="./img/deal.svg" class="img-logo" alt="">
+                </a>
+            </div>
+            <ul>
+                <li>
+                    <a href="/dashboard">
+                        <div class="sidenav-item active"> <i class="material-icons">
+                                home
+                            </i> Dashboard</div>
+                    </a>
+                </li>
+
+                <li> 
+                    <a href="/request">
+                        <div class="sidenav-item">
+                            <span class="naira">
+                                $
+                            </span> Request Loan</div>
+                    </a></li>
+                <li>
+                    <a href="/loans">
+                        <div class="sidenav-item"> <i class="material-icons">
+                                list
+                            </i>Loans</div>
+                    </a>
+                </li>
+             <a href="/reason">
+                        <div class="sidenav-item"> <i class="material-icons">
+                                list
+                            </i>Reason of approve or rejected</div>
+                    </a>
+                </li>
+                <li><a href="/sign-in">
+                        <div class=" sidenav-item"><i class="material-icons">
+                                exit_to_app
+                            </i>Logout</div>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+
+        <div id="rightSideWrapper">
+            <header class="d-flx align-items-center pl-qt">
+                <div class="">
+                    <i class="material-icons menu-click" id="menu" onclick="navControl()">
+                        menu
+                    </i> 
+                    Dashboard
+                </div>
+            </header>
+            <div class="ContentBox">
+                <main>
+                    <div class="column">
+                        <div class="row">
+                            <div class="width-100">
+                                <div class="card m-1h">
+                                    <h2>$ <%= locals.userAmount %></h2>
+                                    <p class="sub-text">Total Amount Requested</p>
+                                </div>
+                            </div>
+                            <div class="width-100">
+                                <div class="card  m-1h">
+                                    <h2>$ <%= locals.interests %></h2>
+                                    <p class="sub-text">interest</p>
+                                </div>
+                            </div>
+                            <div class="width-100">
+                                <div class="card  m-1h">
+                                    <h2> $ <%= locals.balances %></h2>
+                                    <p class="sub-text">Balance </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="column p-1h">
+
+
+                        <!-- Active state -->
+                        <!-- <div class="txn-list">
+                                <div class="social-row">
+                                    <span>Tonye Esan</span>
+                                    <div class="float-r">45 mins ago </div>
+                                </div>
+                                <a href="view-question.html"> s et malesuada fames ac turpis egestas. Vestibulum tortor
+                                    quam,
+                                    feugiat vitae, ultricies eget, tempor sit amet, ante. Donec
+                                    eu</a>
+                                <div class="social-row">
+                                    <div class="float-r">4 replies </div>
+                                </div>
+                            </div>
+                            <div class="txn-list">
+                                <div class="social-row">
+                                    <span>Sotea Dokubo</span>
+                                    <div class="float-r">
+                                        25 mins ago </div>
+                                </div>
+                                <a href="view-question.html"> s et malesuada fames ac turpis egestas. Vestibulum tortor
+                                    quam,
+                                    feugiat vitae, ultricies eget, tempor sit amet, ante. Donec
+                                    eu</a>
+                                <div class="social-row">
+                                    <div class="float-r">
+                                        4 replies </div>
+                                </div>
+                            </div> -->
+
+                        <!-- Empty state -->
+                        <div class="placeholder tx-c">
+                            <div class="empty-state">
+                                <p class="sub-text py-h">You have no loan request, click request loan to proceed</p>
+
+                                <a href="/request" type="button" class="app-btn primary-btn">
+                                    <i class="material-icons">
+                                        add_circle_outline
+                                    </i>Request Loan</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </main>
+
+
+            </div>
+
+        </div>
+        <script type="text/javascript" src="javascripts/script.js"></script>
+</body>
+
+</html>
